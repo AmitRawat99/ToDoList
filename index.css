@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .box-list {
+    width: 350px;
+    height: 530px;
+    box-shadow: 2px 3px 7px gray;
+    position: relative;
+  }
+  #ulList {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #262831;
+    color: #00f9b6;
+    padding: 20px;
+  }
+  #ulList li {
+    list-style-type: none;
+    font-size: 23px;
+  }
+  #ulList i {
+    font-size: 22px;
+    cursor: pointer;
+  }
+  .input {
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+  }
+  .input input {
+    width: 100%;
+    height: 8vh;
+    border: none;
+    outline: none;
+    padding: 10px;
+    flex: 1;
+    background-color: transparent;
+    font-size: 18px;
+  }
+  .input i {
+    background-color: blue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color:white;
+    cursor: pointer;
+    margin-right: 6px;
+    align-items: center;
+  }
+
+  .text {
+    display: flex;
+  }
+  .text label {
+    margin-left: 10px;
+  }
+  .AddList i {
+    cursor: pointer;
+  }
+  .AddList {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    align-items: center;
+  }
